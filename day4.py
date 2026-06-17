@@ -88,5 +88,26 @@
 #     print("you can drive")
 # elif(has_license == "n"):
 #     print("You can't drive")
-# else:
+# else: 
 #     print("You are under age. You cannot drive")
+
+
+# string handling methods
+
+# course = " Welcome to DA class"
+# print(course[9])
+# print(course[12])
+# print(course[12:16])
+# print(course[-7:-4])
+
+# print(course.upper())
+# print(course.lower())
+# print(course.capitalize())
+# print(course.title())
+# print(course)
+# print(course.strip())
+
+skill ="java python nodejs"
+print(skill.split("*"))
+
+
