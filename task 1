@@ -20,6 +20,6 @@
 # print("sum is : ", sum)
 # print("length  ",len(name))
 
-fahrenheit=float(input("enter temrperature fahrenheit is   :"))
-c = (fahrenheit -32) * 5 / 9
-print("c : ",c)
+# fahrenheit=float(input("enter temrperature fahrenheit is   :"))
+# c = (fahrenheit -32) * 5 / 9
+# print("c : ",c)
