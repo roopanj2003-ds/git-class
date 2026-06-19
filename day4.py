@@ -76,12 +76,12 @@
 # age =int(input("enter your age: "))
 # has_license = input("Do you have licence(y/n): ")
 
-# # if(age>=18 and has_license == "y"):
-# #     print("you can drive")
-# # elif(age>18 and has_license == "n"):
-# #     print("You can't drive")
-# # else:
-# #     print("You are under age. You cannot drive")
+# if(age>=18 and has_license == "y"):
+#     print("you can drive")
+# elif(age>18 and has_license == "n"):
+#     print("You can't drive")
+# else:
+#     print("You are under age. You cannot drive")
 
 
 # if(has_license == "y"):
@@ -107,7 +107,7 @@
 # print(course)
 # print(course.strip())
 
-skill ="java python nodejs"
-print(skill.split("*"))
+# skill ="java python nodejs"
+# print(skill.split("*"))
 
 
