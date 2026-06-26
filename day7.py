@@ -1,6 +1,6 @@
 # collection data types:
 
-l = [ "Laptop", "bag", "mouse", "pendrive", "Laptop"]
+# l = [ "laptop", "bag", "mouse", "pendrive", "mouse"]
 # l2 = [13,32,86,4,87, 55,76]
 
 # print("l", l)
@@ -89,7 +89,12 @@ amazon_cart_list = [ "laptop", "bag", "mouse", "pendrive"]
 
 search = input("Enter your search product: ")
 
+if(search in amazon_cart_list):
+    print(f"{search} already exist in product cart list")
+else:
+    print(f"{search} doesnt exist. Please add the product")
+
 if(search not in amazon_cart_list):
     print(f"{search} doesnt exist. Please add the product")
-# else:
-#     print(f"{search} doesnt exist. Please add the product")
+else:
+    print(f"{search} doesnt exist. Please add the product")
