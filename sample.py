@@ -1,3 +1,9 @@
+
+
+
+
+
+
 password = input("Enter password: ")
 
 contains_number = 0  
@@ -17,3 +23,7 @@ if len(password) >= 8  and contains_number > 0 and contains_upper > 0:
     print("Strong Password")
 else:
     print("Weak Password")
+
+
+
+
