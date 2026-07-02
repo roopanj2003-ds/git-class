@@ -47,3 +47,30 @@
 
 # with open("studentslist.txt","w") as file:
 #     file.writelines(lines)
+
+
+# file pointer
+
+# with open("studentslist.txt", "r") as file:
+#     print(file.read(2))
+#     file.seek(2)
+#     print(file.read())
+#     print(file.tell())
+
+
+# with open("file.txt", "r") as file:
+#     file.read(2) 
+#     current_pos = file.tell()
+#     remaining_content = file.read() 
+#     print(f"I am at position: {current_pos}")
+#     print(f"Remaining text is: '{remaining_content}'")
+
+
+# with open("studentslist.txt", "w", encoding="utf-8") as file:
+#     file.write("யோகேஷ்")
+
+
+
+# with open("studentslist.txt", "w", encoding="utf-8") as file:
+#     file.write("😂")
+
