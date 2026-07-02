@@ -96,5 +96,3 @@ else:
 
 if(search not in amazon_cart_list):
     print(f"{search} doesnt exist. Please add the product")
-else:
-    print(f"{search} doesnt exist. Please add the product")
