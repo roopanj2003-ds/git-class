@@ -1,12 +1,12 @@
 # collection data types:
 
-# l = [ "laptop", "bag", "mouse", "pendrive", "mouse"]
+l = [ "laptop", "bag", "mouse", "pendrive", "mouse"]
 # l2 = [13,32,86,4,87, 55,76]
 
-# print("l", l)
-# print("lists", l[0])
+print("l", l)
+print("lists", l[0])
 
-# l.append("cable")
+l.append("cable")
 # l.insert(1,"tv")
 # l[1] = "School bag"
 
